@@ -11,12 +11,17 @@ result = []
 def matrixmult(A,B):
     for i in range(len(A)):
         numlist = []
+
         for k in range(len(B[0])):
             sum = 0
+
             for j in range(len(B)):
                 sum += A[i][k] * B[k][j]
+
             numlist.append(sum)
+
         result.append(numlist)
+        
     print(result)
 
 matrixmult(A,B)
