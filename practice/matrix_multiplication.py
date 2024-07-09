@@ -21,7 +21,6 @@ def matrixmult(A,B):
             numlist.append(sum)
 
         result.append(numlist)
-        
     print(result)
 
 matrixmult(A,B)
