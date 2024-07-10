@@ -15,7 +15,7 @@ def generate_pascals_triangle(n):
     return triangle
 
 # Number of rows
-num_rows = 15
+num_rows = 9
 pascals_triangle = generate_pascals_triangle(num_rows)
 
 # Print Pascal's Triangle
