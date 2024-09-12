@@ -1,18 +1,6 @@
-# Sort
-# Sorting is a key concept in computer science for organizing data.
-
 # Bubble sort and selection sort are 2 basic sorting algorithms:
-
 # Bubble Sort: Goes through a list multiple times, swapping elements that are in the wrong order until everything is sorted.
 # Selection Sort: Finds the smallest (or largest) element in the list and moves it to its correct position, repeating this process for each element.
-
-
-# Exercise
-# Write a program that is getting numbers from user, until they enter 0.
-
-# Then the program will print the numbers, sorted from smallest to largest.
-
-# Implement an algorithm yourself - do not use the "sort" or "sorted" Python functions.
 
 response = int(input("Enter a number(0 to stop): "))
 num_list = []
