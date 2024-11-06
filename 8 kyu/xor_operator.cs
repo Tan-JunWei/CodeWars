@@ -17,3 +17,5 @@ public class Kata
         return result;
     }
 }
+
+// Console.WriteLine(Kata.Xor(true, false)); // true
